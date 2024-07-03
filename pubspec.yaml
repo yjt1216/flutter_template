@@ -51,6 +51,8 @@ dependencies:
   flex_color_scheme: ^7.3.1
   # 屏幕适配
   flutter_screenutil: ^5.9.3
+  # 基于 Riverpod 库 提供一种声明式、易于推理的状态管理方式，同时支持全局状态和 UI 状态
+  flutter_riverpod: ^2.5.1
 
 
 dev_dependencies:
@@ -76,7 +78,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+     - assets/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
